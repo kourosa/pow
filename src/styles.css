@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+}
+
+.conStyle {
+  display: inline-block;
+  border-radius: 2px;
+  border: 13px solid "black";
+  padding: 3px;
+  box-shadow: 1px 1px 1px 1px #828383;
+  margin-left: 5px;
+}
+
+.boxStyle {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  margin: 15px;
+  width: 35px;
+  background: orange;
+}
+
+.tipStyle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  margin-bottom: -10;
+  background: #efefef;
+  padding: 10;
+  text-align: center;
+}
+
+.triangleStyle {
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  fill: #efefef;
+}
